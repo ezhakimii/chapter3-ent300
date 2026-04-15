@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ENT300 Chapter 3 - Interactive Notes</title>
+
+<style>
+body {
+    background-color: powderblue;
+    font-family: Arial;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.section {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    color: green;
+}
+</style>
+
+<script>
+function toggle(id) {
+    var x = document.getElementById(id);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>ENT300 Chapter 3 Interactive Notes</h1>
+
+<!-- 1 Basic Concept -->
+<div class="section" onclick="toggle('a1')">
+<b>1. What is Entrepreneurship?</b>
+<div id="a1" class="answer">
+Entrepreneurship is based on creativity and innovation, where everything starts with an idea.<br><br>
+Creativity generates unique ideas and innovation turns them into reality.
+</div>
+</div>
+
+<!-- 2 Creativity -->
+<div class="section" onclick="toggle('a2')">
+<b>2. What is Creativity?</b>
+<div id="a2" class="answer">
+- Ability to generate new ideas<br>
+- Use imagination to create solutions<br>
+- Combine existing ideas in new ways
+</div>
+</div>
+
+<!-- 3 Creative Process -->
+<div class="section" onclick="toggle('a3')">
+<b>3. Creative Process</b>
+<div id="a3" class="answer">
+Preparation – gather knowledge<br>
+Incubation – ideas develop subconsciously<br>
+Illumination – idea appears<br>
+Verification – evaluate and implement
+</div>
+</div>
+
+<!-- 4 Innovation -->
+<div class="section" onclick="toggle('a4')">
+<b>4. What is Innovation?</b>
+<div id="a4" class="answer">
+Implementation of creative ideas<br>
+Adds value to ideas<br><br>
+Forms:<br>
+- Products<br>
+- Services<br>
+- Processes
+</div>
+</div>
+
+<!-- 5 Types of Innovation -->
+<div class="section" onclick="toggle('a5')">
+<b>5. Types of Innovation</b>
+<div id="a5" class="answer">
+<b>Radical:</b><br>
+- Major changes<br>
+- New markets<br>
+- High risk, high return<br><br>
+
+<b>Incremental:</b><br>
+- Small improvements<br>
+- Low risk<br>
+- Continuous development
+</div>
+</div>
+
+<!-- 6 Forms of Innovation -->
+<div class="section" onclick="toggle('a6')">
+<b>6. Forms of Innovation</b>
+<div id="a6" class="answer">
+- Product<br>
+- Process<br>
+- Organizational<br>
+- Management<br>
+- Marketing<br>
+- Service
+</div>
+</div>
+
+<!-- 7 Sources -->
+<div class="section" onclick="toggle('a7')">
+<b>7. Sources of Innovation</b>
+<div id="a7" class="answer">
+- Process needs<br>
+- Unexpected occurrences<br>
+- Incongruities<br>
+- Market changes<br>
+- Demographic changes<br>
+- Perception changes<br>
+- New knowledge
+</div>
+</div>
+
+<!-- 8 Relationship -->
+<div class="section" onclick="toggle('a8')">
+<b>8. Relationship</b>
+<div id="a8" class="answer">
+Creativity → generates ideas<br>
+Innovation → applies ideas<br>
+Entrepreneur → implements ideas<br>
+Entrepreneurship → process of using both
+</div>
+</div>
+
+<!-- 9 Importance -->
+<div class="section" onclick="toggle('a9')">
+<b>9. Importance</b>
+<div id="a9" class="answer">
+- Helps business survive and grow<br>
+- Increases profit<br>
+- Encourages improvement<br>
+- Important for long-term success
+</div>
+</div>
+
+</body>
+</html>
